@@ -1,0 +1,8 @@
+<%- include('partials/header'); %>
+<h1> <%= title %> </h1>
+<% cat.forEach(function(every) { %>
+	<h1><%= every.name %></h1>
+<% }); %>
+<p> <%= content %> </p>
+
+ <%- include('partials/footer'); %>
